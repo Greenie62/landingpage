@@ -21,6 +21,7 @@ header{
     background-color:var(--primary-color);
     color:whitesmoke;
     text-shadow:1px 1px 1px black;
+   
 }
 
 
@@ -131,10 +132,32 @@ img{
 }
 
 
-footer{
+/* footer{
     background-color:var(--primary-color);
     position:relative;
     color:white;
     text-align:center;
     top:50px;
+    padding:.5em;
+} */
+
+
+.small{
+    display:none;
+}
+
+
+
+@media screen and (max-width:400px){
+    .small{
+        display:inline
+    }
+
+    .medium{
+        display:none;
+    }
+
+    body{
+        background:red;
+    }
 }
